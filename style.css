@@ -1,0 +1,36 @@
+@media screen and (max-width: 480px) {
+    .picture {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .picture {
+        height: 25%;
+        width: 25%;
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .col-sm {
+        text-align: center;
+    }
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 220px;
+  }
+
+.list {
+    list-style: none;
+}
